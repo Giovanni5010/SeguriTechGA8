@@ -1,0 +1,34 @@
+Guía de pruebas funcionales para GA8
+
+Prueba 1: Conexión con base de datos
+- Ejecutar script seguritech_ga8.sql.
+- Abrir la aplicación.
+- Resultado esperado: la aplicación consulta usuarios, clientes y visitas sin error.
+
+Prueba 2: Inicio de sesión
+- Usuario: admin
+- Contraseña: admin123
+- Resultado esperado: ingreso al panel principal.
+
+Prueba 3: Consulta de usuarios
+- Entrar al módulo Usuarios.
+- Resultado esperado: se listan los usuarios almacenados en MySQL.
+
+Prueba 4: Registro de usuario
+- Completar el formulario de usuarios.
+- Resultado esperado: se guarda y se visualiza el nuevo registro.
+
+Prueba 5: Registro de cliente
+- Entrar al módulo Clientes.
+- Registrar un cliente nuevo.
+- Resultado esperado: el cliente se almacena y aparece en la tabla.
+
+Prueba 6: Registro de visita técnica
+- Entrar al módulo Visitas técnicas.
+- Seleccionar cliente y técnico.
+- Registrar fecha, motivo, descripción y observaciones.
+- Resultado esperado: la visita queda registrada en el historial.
+
+Prueba 7: Navegación
+- Volver al panel desde cada módulo.
+- Resultado esperado: la navegación funciona sin errores.

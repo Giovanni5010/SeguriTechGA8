@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8f5e9;
+    color: #1b1b1b;
+}
+
+.header {
+    background: #1b5e20;
+    color: #ffffff;
+    padding: 18px 28px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 6px 0 0 0;
+}
+
+.contenedor {
+    width: 92%;
+    max-width: 1100px;
+    margin: 24px auto;
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.login-box {
+    width: 92%;
+    max-width: 420px;
+    margin: 70px auto;
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    text-align: center;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 14px 0;
+    border: 1px solid #bdbdbd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+textarea {
+    min-height: 80px;
+}
+
+button, .btn {
+    display: inline-block;
+    background: #1b5e20;
+    color: #ffffff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 4px 6px 4px 0;
+}
+
+button:hover, .btn:hover {
+    background: #2e7d32;
+}
+
+.btn-secundario {
+    background: #558b2f;
+}
+
+.grid-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.card-menu {
+    background: #f1f8e9;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #c5e1a5;
+}
+
+.card-menu h3 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 9px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background: #a5d6a7;
+}
+
+.mensaje {
+    background: #e8f5e9;
+    border-left: 4px solid #2e7d32;
+    padding: 10px;
+    margin-bottom: 14px;
+}
+
+.error {
+    background: #ffebee;
+    border-left: 4px solid #c62828;
+    padding: 10px;
+    margin-bottom: 14px;
+}
+
+.nav-superior {
+    margin-bottom: 18px;
+}
+
+@media (max-width: 700px) {
+    .contenedor, .login-box {
+        width: 96%;
+        padding: 16px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}

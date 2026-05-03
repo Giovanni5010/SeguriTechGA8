@@ -1,0 +1,10 @@
+Notas de implementación
+
+1. El proyecto se presenta como base integrada para la evidencia GA8.
+2. La arquitectura aplicada separa presentación, controlador, modelo y acceso a datos.
+3. Las vistas JSP no contienen consultas SQL directamente.
+4. Los Servlets reciben las solicitudes y llaman a los DAO.
+5. Los DAO centralizan las operaciones contra MySQL.
+6. La clase Conexion centraliza los datos de conexión.
+7. Para un ambiente real se debe fortalecer la seguridad con cifrado de contraseñas, filtros de sesión, validaciones adicionales y manejo avanzado de errores.
+8. Para la evidencia académica, la prioridad es demostrar integración funcional de módulos, buenas prácticas básicas, uso del IDE, uso de Git y pruebas.

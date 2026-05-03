@@ -1,0 +1,28 @@
+Comandos sugeridos para evidenciar control de versiones
+
+1. Ubicarse en la carpeta del proyecto:
+cd ruta/del/proyecto/SeguriTechGA8
+
+2. Inicializar repositorio:
+git init
+
+3. Verificar estado:
+git status
+
+4. Agregar archivos:
+git add .
+
+5. Crear primer commit:
+git commit -m "Integracion inicial de modulos SeguriTech GA8"
+
+6. Conectar con GitHub:
+git remote add origin URL_DEL_REPOSITORIO
+
+7. Enviar al repositorio remoto:
+git branch -M main
+git push -u origin main
+
+8. Capturas recomendadas:
+- git status
+- historial de commits
+- repositorio en GitHub
